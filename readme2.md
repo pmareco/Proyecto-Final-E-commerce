@@ -25,7 +25,7 @@ Este es un proyecto de tienda e-commerce desarrollado como parte del curso de de
 
 ## Visualización del Proyecto
 
-- 🌐 **GitHub URL**: [https://pmareco.github.io/Proyecto-Final-E-commerce/](https://pmareco.github.io/Proyecto-Final-E-commerce/)
+- 🌐 **GitHub URL**: (https://github.com/pmareco/Proyecto-Final-E-commerce.git)
 - 📁 **Carpeta Drive del Proyecto**: [https://drive.google.com/drive/folders/17g8pELyl6Jg2r0W1kTgZaSbetzrqdRtz?usp=sharing](https://drive.google.com/drive/folders/17g8pELyl6Jg2r0W1kTgZaSbetzrqdRtz?usp=sharing)
 
 ## Estructura de Archivos
