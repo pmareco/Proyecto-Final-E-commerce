@@ -13,15 +13,21 @@ function renderProductos(productos) {
     const card = document.createElement('div');
     card.classList.add('card');
     card.innerHTML = `
-      <img src="${producto.image}" class="card-img-top" alt="${producto.title}">
+      <img src="${producto.image}" class="card-img-top img-fluid" style="height: 200px; object-fit: contain;" alt="${producto.title}">
       <div class="card-body">
         <h5 class="card-title">${producto.title}</h5>
         <p class="card-text">$${producto.price}</p>
-        <button class="btn btn-primary" onclick='agregarAlCarrito(${JSON.stringify(producto)})'>Añadir al carrito</button>
+        <button class="btn btn-primary" data-id="${producto.id}">Añadir al carrito</button>
       </div>
     `;
     productosContainer.appendChild(card);
+
+    // Asignar evento al botón
+    card.querySelector("button").addEventListener("click", () => {
+      agregarAlCarrito(producto);
+    });
   });
+
 }
 
 function agregarAlCarrito(producto) {
